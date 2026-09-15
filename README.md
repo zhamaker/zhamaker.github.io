@@ -1,10 +1,10 @@
 # Zachary Hamaker — academic website
 
-A static academic website for **https://zhamaker.github.io/**. It includes an introduction, 31 publication entries with arXiv links, teaching history, Ph.D. students, and a downloadable CV.
+A static academic website for **https://zhamaker.github.io/**. It includes an introduction, 31 publication entries with arXiv links, teaching history, Ph.D. and master’s students, and a downloadable CV.
 
 ## Publish on GitHub Pages
 
-1. Add these files and folders to the root of `zhamaker/zhamaker.github.io` and commit them to `main`.
+1. Add these files to the root of `zhamaker/zhamaker.github.io` and commit them to `main`.
 2. Open the repository's **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Select **main** and **/(root)**, then **Save**.
@@ -17,14 +17,15 @@ No package installation or build command is needed. GitHub's current instruction
 | Content | File |
 | --- | --- |
 | Introduction, contact information, recent papers | `index.html` |
+| Photograph in the upper-right header on every page | `zachary-hamaker.jpg` |
 | Complete publication list | `research.html` |
 | Courses and teaching history | `teaching.html` |
-| Ph.D. students and mentorship | `students.html` |
-| Downloadable CV | `files/HamakerCV.pdf` |
-| Colors, spacing, and responsive layout | `assets/style.css` |
-| Browser icon | `assets/favicon.svg` |
+| Graduate students and mentorship | `students.html` |
+| Downloadable CV | `HamakerCV.pdf` |
+| Colors, spacing, and responsive layout | `style.css` |
+| Browser icon | `favicon.svg` |
 
-You can edit the HTML directly in GitHub using the pencil icon. Add new publications to `research.html`, then update the recent-work section in `index.html`. Replace the PDF with the same filename to keep the CV link stable. Adding a PDF to `files/` makes it available at `https://zhamaker.github.io/files/your-filename.pdf`; link it from any page with `<a href="files/your-filename.pdf">Download PDF</a>`.
+You can edit the HTML directly in GitHub using the pencil icon. Add new publications to `research.html`, then update the recent-work section in `index.html`. Replace the PDF with the same filename to keep the CV link stable. Keep additional PDFs beside the HTML files; for example, `your-filename.pdf` is available at `https://zhamaker.github.io/your-filename.pdf`.
 
 The pages are readable without JavaScript and use system fonts. The `.nojekyll` file allows GitHub Pages to serve them directly. There are no trackers, external font requests, or forms.
 
@@ -40,3 +41,19 @@ Useful source pages:
 - https://people.clas.ufl.edu/zhamaker/teaching/
 
 All HTML links are relative, so the site can also be previewed by opening `index.html` locally.
+
+## Student placements
+
+Each graduate's current position appears below their name in `students.html`. Edit that student's `student-position` paragraph to update their role and institution; the dates on the right remain their supervision dates at Florida.
+
+Positions checked on 14 September 2026:
+
+- Adam Gregory — Visiting Assistant Professor, Western Carolina University (department faculty directory).
+- Michael Coopman — Assistant Teaching Professor, Florida International University (FIU profile).
+- Joshua Arroyo — Lecturer, Georgia State University (department directory).
+- Chen-An (Jack) Chou — graduate student, University of Minnesota (provided by Zachary Hamaker).
+- Leo Adaryukov — mathematics teacher in Gainesville. The school name is pending clarification; the draft currently uses only the city.
+
+Sources are linked from the respective placements on the student page. Leo's directory entry: https://www.alachuaschools.net/o/ghs/staff
+
+This publishing folder keeps every file at the repository root so the GitHub browser upload preserves all links. Upload all ten files together, including `.nojekyll`. The original preview source is in the adjacent `zhamaker.github.io` folder.
