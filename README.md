@@ -56,4 +56,4 @@ Positions checked on 14 September 2026:
 
 Sources are linked from the respective placements on the student page. Leo's directory entry: https://www.alachuaschools.net/o/ghs/staff
 
-This publishing folder keeps every file at the repository root so the GitHub browser upload preserves all links. Upload all ten files together, including `.nojekyll`. The original preview source is in the adjacent `zhamaker.github.io` folder.
+This publishing folder keeps every file at the repository root so the GitHub browser upload preserves all links. Upload all files together, including `.nojekyll`. The original preview source is in the adjacent `zhamaker.github.io` folder.
